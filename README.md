@@ -9,7 +9,8 @@ This project includes a simulation to run the HaptX glove and stack blocks with 
 ## Data Set
 ## Data Format and cleaning
 ## Transfomer
-[Fedformer](https://arxiv.org/abs/2201.12740)
+[Fedformer Paper](https://arxiv.org/abs/2201.12740)
+[Fedformer Github](https://github.com/MAZiqing/FEDformer)
 
 The model is trained with a Frequency Enhanced Decomposed Transformer which works on multivariate time series data.
 
