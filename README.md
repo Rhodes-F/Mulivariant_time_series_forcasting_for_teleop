@@ -12,6 +12,8 @@ The data is collected into a data folder in unity. To collect the data, the user
     
 For our dataset, we stacked blocks for 974 trials, each roughly 3 seconds in length. Data was collected starting from both a sitting and standing position. If a block tower fell over, it was simply restacked. If two blocks randomly spawned on top of each other, they would be left alone if already in the proper order. Otherwise they would be unstacked and then restacked. In the event a block fell off the table, we would wait for a significant amount of time to make the trial clearly identifiable by its larger file size. The trial will be removed.
 ## Data Format and cleaning
+The data that was gathered was also in a format that was not easily read by the transformer. To mend this, we wrote many scripts to clean, and error check the data. These scrips are included and labeled as data cleaning. The purpose of these scripts is to first check and remove any parenthesis that were added during collection. They also check to make sure that each trial has the correct number of rows and columns and if they do not those trials are removed. Finally, all of the data is combined into one file and the positions of the beginnings of each file are recorded as a text file. This allows the transformer to read the data and by recording the beginnings of each trial we can ensure that the transformer’s window does not overlap across multiple trials.
+
 ## Transfomer
 [Fedformer Paper](https://arxiv.org/abs/2201.12740)
 [Fedformer Github](https://github.com/MAZiqing/FEDformer)
