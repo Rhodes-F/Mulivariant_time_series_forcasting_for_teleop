@@ -17,7 +17,6 @@ To train the model, run main2.py after installing the requirements.txt. Training
 The loss curves and model checkpoints will output to a checkpoints folder in scipts.
 Data is read from ./data/formatted_data.csv and row_counts.txt is used to ensure the transformer does not learn a sequence across more than one episode of training.
 
-Args: 
     parser.add_argument('--is_training', type=int, default=1)
     parser.add_argument('--root_path', type=str, default='../data')
     parser.add_argument('--data_path', type=str, default='formatted_data.csv')
