@@ -99,4 +99,6 @@ Data is read from ./data/formatted_data.csv and row_counts.txt is used to ensure
     
 ## Images
 Below we have included an image of a sucessful block stack and a gif showing the set up and simulation environment. 
+![block stack](https://github.com/Rhodes-F/Mulivariant_time_series_forcasting_for_teleop/blob/main/IMG_6029.jpg)
 
+![set up](https://github.com/Rhodes-F/Mulivariant_time_series_forcasting_for_teleop/blob/main/IMG_0615%20(2).gif)
